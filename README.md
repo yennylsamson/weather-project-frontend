@@ -23,7 +23,6 @@ DONE </br>
 </ol>
 
 
-## APIs Used:
-<a href="https://openweathermap.org/">Open Weather API</a>
+
 
 
