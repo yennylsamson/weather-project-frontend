@@ -42,9 +42,9 @@ function InputCard({ setImage, setTemp, setCountryInput, setDescription, setWind
     }
 
     return (
-        <div className='InputCardDiv'>
-            <div className='InputCard'>
-                <div className='countryField'>
+        <div className='input-card-div'>
+            <div className='input-card'>
+                <div className='country-field'>
                     <label>Country</label>
                     <select defaultValue="default" onChange={changeCountryHandler}>
                         <option value="default" key="default" disabled>----Select Country----</option>

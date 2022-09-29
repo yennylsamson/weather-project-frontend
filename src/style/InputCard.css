@@ -1,10 +1,9 @@
-.InputCardDiv{
+.input-card-div{
     height: 100vh;
-    
     display: flex;
 }
 
-.InputCard{
+.input-card{
     width: 40%;
     height: 40%;
     
@@ -21,12 +20,12 @@
     align-items: center;
 }
 
-.InputCard select{
+.input-card select{
     width: 200px;
     margin: 10px;
 }
 
-.InputCard button{
+.input-card button{
     background-color: #FFA101;
     text-decoration: none;
 
@@ -37,7 +36,7 @@
     padding: 5px;
 }
 
-.InputCard button :hover{
+.input-card button :hover{
    font-weight: bolder;
    padding: 10px;
 }

@@ -1,9 +1,9 @@
-.WeatherCardDiv{
+.weather-card-div{
     height: 100vh;
 
     display: flex;
 }
-.WeatherCard{
+.weather-card{
     width: 50%; 
 
     margin: auto;
@@ -13,27 +13,27 @@
     border: 5px solid #FFA101;
 }
 
-.Top{
+.top{
     padding: 10px 10px 0px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.Icon_Temp{
+.icon-temp{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.Icon_Temp img{
+.icon-temp img{
 
     width:90px;
     margin: 2px;
 }
 
-.Bottom{
+.bottom{
     padding: 0px 30px 10px 30px;
     display: flex;
     flex-direction: row;
@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-.Left{
+.left{
     width:fit-content;
     height: 100px;
     display: flex;
@@ -51,7 +51,7 @@
 }
 
 
-.BackButton{
+.back-button{
     background-color: #FFA101;
     text-decoration: none;
 
@@ -62,12 +62,12 @@
     padding: 5px;
 }
 
-.BackButton:hover{
+.back-button :hover{
     font-weight: bolder;
     padding: 5px;
  }
  
-.WeatherCard a{
+.weather-card a{
     text-decoration: none;
     color: black;
 }
