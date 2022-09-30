@@ -18,7 +18,7 @@ function InputCard({ setImage, setTemp, setCountryInput, setDescription, setWind
     
     useEffect(() => {
         getCountries();
-    }, [])
+    }, [countries])
 
     const changeCountryHandler = (event) => {
         setCountry(event.target.value)
