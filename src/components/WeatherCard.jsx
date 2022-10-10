@@ -7,7 +7,7 @@ import weatherIcons from '../images/WeatherIcons.js'
 function WeatherCard({ image, temp, city, country, description, windSpeed, humidity }) {
 
   return (
-    <div className='weather-card-div'>
+    <div data-testid="weather-card-component" className='weather-card-div'>
       <div className='weather-card'>
         <div className='top'>
           <div className='icon-temp'>

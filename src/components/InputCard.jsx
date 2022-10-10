@@ -42,7 +42,7 @@ function InputCard({ setImage, setTemp, setCountryInput, setDescription, setWind
     }
 
     return (
-        <div className='input-card-div'>
+        <div data-testid="input-card-component" className='input-card-div'>
             <div className='input-card'>
                 <div className='country-field'>
                     <label>Country</label>
